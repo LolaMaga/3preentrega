@@ -1,76 +1,67 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+h3 {
+  font-family: Montserrat,sans-serif;
+  color: #2a532a; }
 
-h3{
-    font-family: Montserrat,sans-serif;
-    color: #2a532a;;
-}
+.logo {
+  padding: 10px;
+  text-align: center; }
 
-.logo{
-    padding: 10px;
-    text-align: center
+.imglogo {
+  width: 250px;
+  border-radius: 70%; }
 
-}
-.imglogo{
-    width:250px;
-    border-radius: 70%;
-}
-.contenedor{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    text-align:center;
-    background-color: #CD1818;
-    color: #F9F5F6;
-    box-sizing: inherit;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:1fr 1fr; 
-    grid-template-areas: 
-      "header header header header "
-      ; 
-}
-.colorbarra{
-    background-color: #2db9ba;
+.imglogo:hover {
+  transform: scale(1.1); }
 
-}
-.card{
-    margin: 10px;
-}
-footer{
-    background-color: #2a532a;
-    color: white;
-}
-nav{
-    font-family: Montserrat,sans-serif;
-    color: #2a532a;
+.contenedor {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  text-align: center;
+  background-color: #CD1818;
+  color: #F9F5F6;
+  box-sizing: inherit;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "header header header header "; }
 
-}
-main{
-    display: flex;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.card{
-    font-family: Montserrat,sans-serif;
-    color: #2a532a;
-    display: flex;
-    justify-content: space-around;
-}
-body{
-   
-    background-color: #FFAACF;
-}
-@media only screen and (min-width:600px){
-    body{
-        background-color:#C9F4AA;
-    }
-}
-@media only screen and (min-width:768px){
-    body{
-    background-color: #F9F5F6;
-    }
-}
+.colorbarra {
+  background-color: #2db9ba; }
+
+.card {
+  margin: 10px; }
+
+footer {
+  background-color: #2a532a;
+  color: white; }
+
+nav {
+  font-family: Montserrat,sans-serif;
+  color: #2a532a; }
+
+main {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.card {
+  font-family: Montserrat,sans-serif;
+  color: #2a532a;
+  display: flex;
+  justify-content: space-around; }
+
+body {
+  background-color: #FFAACF; }
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #C9F4AA; } }
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #F9F5F6; } }
