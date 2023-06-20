@@ -1,9 +1,8 @@
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
-
- }
+  box-sizing: inherit;
+  overflow-x: hidden; }
 
 h3 {
   font-family: Montserrat,sans-serif;
@@ -36,11 +35,9 @@ h3 {
   background-color: #2db9ba; }
 
 .card {
-  margin: 10px; }
-
-footer {
-  background-color: #2a532a;
-  color: white; }
+  margin: 10px;
+  display: flex;
+  justify-content: space-between; }
 
 nav {
   font-family: Montserrat,sans-serif;
@@ -54,17 +51,27 @@ main {
 .card {
   font-family: Montserrat,sans-serif;
   color: #2a532a;
-  display: flex;
-  justify-content: space-around; 
- flex-wrap: wrap;}
+  flex-wrap: wrap; }
+
+footer {
+  background-color: #2a532a;
+  color: white; }
+
+.formulario {
+  padding: 10px;
+  margin-bottom: 10px; }
 
 body {
   background-color: #F86F03; }
+
+@media only screen and (min-width: 576px) {
+  body {
+    background-color: #F86F03; } }
 
 @media only screen and (min-width: 600px) {
   body {
     background-color: #C9F4AA; } }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: #F9F5F6; } }
