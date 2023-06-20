@@ -2,7 +2,11 @@
   margin: 0%;
   padding: 0%;
   box-sizing: inherit;
-  overflow-x: hidden; }
+
+ }
+ body{
+  overflow-x: hidden;
+ }
 
 h3 {
   font-family: Montserrat,sans-serif;
@@ -58,8 +62,9 @@ footer {
   color: white; }
 
 .formulario {
-  padding: 10px;
-  margin-bottom: 10px; }
+  
+  margin-bottom: 10px; 
+}
 
 body {
   background-color: #F86F03; }
