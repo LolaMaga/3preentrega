@@ -1,19 +1,13 @@
+
 @import"var";
+@import"footer";
+@import"header";
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: inherit;
-   
 }
-body{
- overflow-x: hidden;
-}
-h3{
-    font-family: Montserrat,sans-serif;
-    color: #2a532a;;
-    
-}
-
 .logo{
     padding: 10px;
     text-align: center      
@@ -37,8 +31,7 @@ h3{
     grid-template-columns: 1fr;
     grid-template-rows:1fr 1fr; 
     grid-template-areas: 
-      "header header header header "
-      ; 
+      "header header header header "; 
 }
 .colorbarra{
     background-color:#2db9ba;
@@ -50,8 +43,7 @@ h3{
  }
 nav{
     font-family: Montserrat,sans-serif;
-    color: #2a532a;
-
+    color:$letra;
 }
 main{
     display: flex;
@@ -60,34 +52,13 @@ main{
 }
 .card{
     font-family: Montserrat,sans-serif;
-    color: #2a532a;
+    color:$letra;
     flex-wrap: wrap;  
 }
-footer {
-  background-color: #2a532a;
-  color: white;
- }
-.formulario{
-  padding: 10px;
-  margin-bottom: 10px;
-
+@media only screen and (min-width:576px){ 
 }
-body{
-
-  background-color: #F86F03;
-}
-@media only screen and (min-width:576px){
-    body{
-        background-color:#F86F03;
-    }
-}
-@media only screen and (min-width:600px){
-    body{
-    background-color: #C9F4AA;
-    }
+@media only screen and (min-width:600px){  
 }
 @media screen and (min-width:768px){
-    body{
-        background-color: #F9F5F6;
 }
-}
+

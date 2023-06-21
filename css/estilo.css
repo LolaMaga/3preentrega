@@ -1,12 +1,19 @@
+footer {
+  background-color: #2a532a;
+  color: white; }
+
+.formulario {
+  padding: 10px;
+  margin-bottom: 10px; }
+
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: inherit;
+  box-sizing: inherit; }
 
- }
- body{
+body {
   overflow-x: hidden;
- }
+  background-color: #FFECEC; }
 
 h3 {
   font-family: Montserrat,sans-serif;
@@ -56,27 +63,3 @@ main {
   font-family: Montserrat,sans-serif;
   color: #2a532a;
   flex-wrap: wrap; }
-
-footer {
-  background-color: #2a532a;
-  color: white; }
-
-.formulario {
-  
-  margin-bottom: 10px; 
-}
-
-body {
-  background-color: #F86F03; }
-
-@media only screen and (min-width: 576px) {
-  body {
-    background-color: #F86F03; } }
-
-@media only screen and (min-width: 600px) {
-  body {
-    background-color: #C9F4AA; } }
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #F9F5F6; } }
